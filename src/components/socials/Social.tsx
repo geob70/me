@@ -6,7 +6,7 @@ const Socials = () => {
       <ul>
         <li>
           <a
-            href="https://github.com/bchiang7"
+            href="https://github.com/geob70"
             aria-label="GitHub"
             target="_blank"
             rel="noreferrer"
@@ -29,7 +29,7 @@ const Socials = () => {
         </li>
         <li>
           <a
-            href="https://www.instagram.com/bchiang7"
+            href="/#"
             aria-label="Instagram"
             target="_blank"
             rel="noreferrer"
@@ -54,7 +54,7 @@ const Socials = () => {
         </li>
         <li>
           <a
-            href="https://twitter.com/bchiang7"
+            href="/#"
             aria-label="Twitter"
             target="_blank"
             rel="noreferrer"
@@ -77,7 +77,7 @@ const Socials = () => {
         </li>
         <li>
           <a
-            href="https://www.linkedin.com/in/bchiang7"
+            href="/#"
             aria-label="Linkedin"
             target="_blank"
             rel="noreferrer"
@@ -102,7 +102,7 @@ const Socials = () => {
         </li>
         <li>
           <a
-            href="https://codepen.io/bchiang7"
+            href="/#"
             aria-label="Codepen"
             target="_blank"
             rel="noreferrer"

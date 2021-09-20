@@ -65,9 +65,9 @@ export const EmailContainer = styled.div`
   a {
     margin: 20px auto;
     /* padding: 10px; */
-    /* font-family: var(--font-mono);
-    font-size: var(--fz-xxs);
-    line-height: var(--fz-lg); */
+    font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
+    font-size: 12px;
+    line-height: 18px;
     letter-spacing: 0.1em;
     transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
     writing-mode: vertical-rl;
