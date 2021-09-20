@@ -2,7 +2,6 @@
   "homepage": "https://geob70.github.io/me",
   "name": "me",
   "version": "0.1.0",
-  "private": true,
   "dependencies": {
     "@craco/craco": "^6.3.0",
     "@emotion/react": "^11.4.1",
