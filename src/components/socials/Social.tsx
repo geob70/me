@@ -102,7 +102,7 @@ const Socials = () => {
         </li>
         <li>
           <a
-            href="/#"
+            href="https://codepen.io/geob70"
             aria-label="Codepen"
             target="_blank"
             rel="noreferrer"

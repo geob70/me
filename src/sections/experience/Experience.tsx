@@ -26,10 +26,10 @@ const Experience = () => {
       company: "Chronos",
       date: "Jan 2020 - present",
       tasks: [
-        "Cooperate diligently with other IT team members to plan, design, and develop smart solutions",
-        "Transformed existing software to correct errors, upgrade interfaces, and improve efficiency",
+        "Cooperated diligently with other IT team members to plan, design, and develop smart solutions.",
+        "Transformed existing software to correct errors, upgrade interfaces, and improve efficiency.",
         "Work with different technologies such as JavaScript, TypeScript, React, Node (Adonis), Vue and Redis.",
-        "Worked closely with user experience designers and other developers ensure thoughtful and coherent user experiences across applications",
+        "Worked closely with user experience designers and other developers ensure thoughtful and coherent user experiences across applications.",
       ],
     },
     {
@@ -38,8 +38,8 @@ const Experience = () => {
       date: "Dec 2018 - April 2019",
       intern: true,
       tasks: [
-        "Cooperate diligently with other IT team members to plan, design, and develop smart solutions",
-        " Refactored API to isolate and remove bugs, to improve API response time",
+        "Cooperate diligently with other IT team members to plan, design, and develop smart solutions/",
+        " Refactored API to isolate and remove bugs, to improve API response time.",
       ],
     },
     {
@@ -49,7 +49,7 @@ const Experience = () => {
       intern: true,
       tasks: [
         "Obtained a solid understanding of creating, testing and deploying applications.",
-        "Implemented and maintained code for in-house websites using Vue, CSS, Sass, and JavaScript",
+        "Implemented and maintained codes for in-house websites using Vue, CSS, Sass, and JavaScript.",
       ],
     },
   ];
@@ -78,7 +78,7 @@ const Experience = () => {
             </h3>
             <p>{experience[activeTabId].date}</p>
             {experience[activeTabId].intern ? (
-              <small className="text-xs bg-blue-500 italic">intern</small>
+              <small className="text-xs italic">intern</small>
             ) : null}
             <div className="tasks">
               {experience[activeTabId].tasks.map(

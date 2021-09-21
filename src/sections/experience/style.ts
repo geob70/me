@@ -77,6 +77,7 @@ export const TabPanel = styled.div`
     padding: 1px 3px;
     border-radius: 4px;
     color: #ccd6f6;
+    background: #007bff;
   }
 
   h3 {

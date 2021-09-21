@@ -7,6 +7,7 @@ import Main from "./layouts/Container";
 import Intro from "./sections/intro/Intro";
 import About from "./sections/about/About";
 import Experience from "./sections/experience/Experience";
+import Projects from "./sections/projects/projects";
 import "./App.css";
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
         <Intro id="intro" />
         <About />
         <Experience />
+        <Projects />
       </Main>
       <Socials />
       <Email />
