@@ -5,6 +5,7 @@ export const Container = styled.section`
   align-items: center;
   justify-content: center;
   width: 100%;
+  position: relative;
   height: 100vh;
 
   div {

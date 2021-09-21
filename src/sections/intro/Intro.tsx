@@ -11,7 +11,7 @@ const Intro = ({ ...children }) => {
         <h2>Let's make life easier.</h2>
         <p>
           I'm a software engineer specialized in building applications, <br />{" "}
-          who loves code and has a serious passion for new technology ✌️.
+          who loves coding and has a serious passion for new technology ✌️.
         </p>
         <Button label={"Contact me"} />
       </div>

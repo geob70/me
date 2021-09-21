@@ -19,7 +19,7 @@ const Nav = () => {
               <a href="/#">Experience</a>
             </li>
             <li>
-              <a href="/#">Work</a>
+              <a href="/#">Projects</a>
             </li>
             <li>
               <a href="/#">Contact</a>
