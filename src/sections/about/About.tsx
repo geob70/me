@@ -11,7 +11,7 @@ import ListItem from "../../components/list/ListItem";
 
 const About = () => {
   return (
-    <Container>
+    <Container id="about">
       <div>
         <Header>
           About Me

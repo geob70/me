@@ -8,6 +8,7 @@ import Intro from "./sections/intro/Intro";
 import About from "./sections/about/About";
 import Experience from "./sections/experience/Experience";
 import Projects from "./sections/projects/projects";
+import Footer from "./sections/footer/Footer";
 import "./App.css";
 
 function App() {
@@ -15,10 +16,11 @@ function App() {
     <MainComponent>
       <Nav />
       <Main>
-        <Intro id="intro" />
+        <Intro />
         <About />
         <Experience />
         <Projects />
+        <Footer />
       </Main>
       <Socials />
       <Email />

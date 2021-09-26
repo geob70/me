@@ -6,7 +6,7 @@ import { projects, ProjectProps } from "./data";
 
 const Projects = () => {
   return (
-    <Container>
+    <Container id="projects">
       <h3>My Projects</h3>
       <span className="span">view the archive</span>
       <CardContainer>
@@ -18,12 +18,26 @@ const Projects = () => {
                   style={{ color: "#64ffda", fontSize: "40px" }}
                 />
                 <div>
-                  <GitHubIcon className="icon" />
+                  <a
+                    href={project.githubUrl}
+                    aria-label="GitHub"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <GitHubIcon className="icon" />
+                  </a>
                   {project.url ? (
-                    <LanguageIcon
-                      className="icon"
-                      style={{ marginLeft: "5px" }}
-                    />
+                    <a
+                      href={project.url}
+                      aria-label="GitHub"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <LanguageIcon
+                        className="icon"
+                        style={{ marginLeft: "5px" }}
+                      />
+                    </a>
                   ) : null}
                 </div>
               </div>

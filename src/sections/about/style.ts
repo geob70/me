@@ -4,8 +4,12 @@ export const Container = styled.section`
   width: 100%;
   height: max-content;
   display: flex;
-  padding: 30px 120px;
+  padding: 120px;
   justify-content: center;
+
+  @media (max-width: 480px) {
+    padding: 0px 10px;
+  }
 
   div {
     width: 90%;
@@ -26,14 +30,16 @@ export const Header = styled.h2`
   color: #ccd6f6;
   line-height: 1.1;
   font-family: "Noto Sans", sans-serif;
+  
 
   &:after {
     content: "";
     display: block;
-    width: 300px;
+    width: clamp(30px, 300px, 350px);
     height: 1px;
     margin: 0 0 0 10px;
     background-color: #a8b2d1;
+    
   }
 `;
 
@@ -147,7 +153,7 @@ export const ImageContainer = styled.div`
   );
   position: relative;
   /* top: 100px; */
-  transition: .5s all ease-in-out;
+  transition: 0.5s all ease-in-out;
   /* width: 30px; */
 
   &:hover {
@@ -171,6 +177,6 @@ export const ImageContainer = styled.div`
     top: 0;
     left: 0;
     opacity: 0.4;
-    transition: .5s all ease-in-out;
+    transition: 0.5s all ease-in-out;
   }
 `;

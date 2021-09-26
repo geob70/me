@@ -3,12 +3,12 @@ import Container from "./style";
 
 interface Props {
   label: string;
-  action?: Function;
+  action?: any;
 }
 
 const Button: FC<Props> = ({ label, action }) => {
   return (
-    <Container>
+    <Container onClick={action}>
       <span>{label}</span>
     </Container>
   );

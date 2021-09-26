@@ -4,9 +4,11 @@ export const Container = styled.div`
   display: flex;
   flex-direction: column;
   width: 100%;
-  height: 100vh;
+  height: 100%;
   align-items: center;
   justify-content: center;
+  margin: 50px 0px;
+  padding: 50px 0px;
 
   h3 {
     font-size: clamp(24px, 5vw, 32px);
@@ -44,7 +46,7 @@ export const CardContainer = styled.div`
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 15px;
   position: relative;
-  width: 75%;
+  width: clamp(300px, 65%, 70%);
 `;
 
 export const Card = styled.div`
@@ -62,6 +64,7 @@ export const Card = styled.div`
   background-color: #112240;
   cursor: pointer;
   transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  font-family: "Noto Sans", sans-serif;
 
   &:hover {
     transform: translateY(-7px);
