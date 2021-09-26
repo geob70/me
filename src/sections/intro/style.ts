@@ -28,7 +28,7 @@ export const Container = styled.section`
     color: #ccd6f6;
     font-weight: 600;
     line-height: 1.1;
-    font-size: clamp(40px, 8vw, 80px);
+    font-size: clamp(30px, 8vw, 80px);
     font-family: "Noto Sans", sans-serif;
   }
 

@@ -8,10 +8,11 @@ const Container = styled.div`
   border: 1px solid #64ffda;
   cursor: pointer;
   transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
+    font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
   width: fit-content !important;
 
   &:hover {
-    background: #3c4140;
+    background: rgba(100,255,218,0.1);
   }
 `;
 

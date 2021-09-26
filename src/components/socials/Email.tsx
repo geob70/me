@@ -3,7 +3,9 @@ import { EmailContainer } from "./styles";
 const Email = () => {
   return (
     <EmailContainer>
-      <a href="/#">sylvester.ola.george@gmail.com</a>
+      <a href="mailto:sylvester.ola.george@gmail.com">
+        sylvester.ola.george@gmail.com
+      </a>
     </EmailContainer>
   );
 };

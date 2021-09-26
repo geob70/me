@@ -3,8 +3,12 @@ import Button from "../../components/button/Button";
 // import {FC} from "react";
 
 const Intro = ({ ...children }) => {
+  const contactMe = () => {
+    window.open("mailto:sylvester.ola.george@gmail.com", "_blank")?.focus();
+  };
+
   return (
-    <Container>
+    <Container id="intro">
       <div>
         <span>Hi ✋, my name is</span>
         <h1>Sylvester George.</h1>
@@ -13,7 +17,7 @@ const Intro = ({ ...children }) => {
           I'm a software engineer specialized in building applications, <br />{" "}
           who loves coding and has a serious passion for new technology ✌️.
         </p>
-        <Button label={"Contact me"} />
+        <Button action={contactMe} label={"Contact me"} />
       </div>
     </Container>
   );

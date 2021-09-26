@@ -15,7 +15,7 @@ export const projects: Array<ProjectProps> = [
     url: "https://ecstatic-benz-8d2eab.netlify.app",
   },
   {
-    title: "Shopping",
+    title: "GIFTHUB",
     desc: "GiftHub is an e-commerce site, that was created to enable customers purchase gift items for various occasions and to allow them customise the print on them. This website serves as a link between the customer and the retailer, whilst providing a hassle free experience.",
     tools: ["Vue", "Tailwind", "Node.js", "Typescript"],
     githubUrl: "https://github.com/geob70/joyce",
