@@ -18,6 +18,10 @@ export const Header = styled.nav`
   filter: none !important;
   pointer-events: auto !important;
   user-select: auto !important;
+
+  @media (max-width: 480px) {
+    padding: 0px 10px;
+  }
 `;
 
 export const NavContainer = styled.nav`
@@ -38,14 +42,14 @@ export const LogoContainer = styled.div`
   display: grid;
   place-items: center;
   padding: 0px 10px;
-  transform: skew(-10deg);
-  border: 2px solid #64ffda;
-  color: #64ffda;
-  font-size: 20px;
+  /* transform: skew(-10deg); */
+  /* border: 2px solid #64ffda; */
+  /* color: #64ffda; */
+  /* font-size: 20px; */
   cursor: pointer;
 
-  small {
-    font-size: xx-small;
+  img {
+    height: clamp(35px, 50px, 55px);
   }
 `;
 
@@ -53,6 +57,20 @@ export const NavItem = styled.div`
   display: flex;
   -webkit-box-align: center;
   align-items: center;
+
+  @media (max-width: 480px) {
+    ol {
+      display: none !important;
+    }
+    .menu {
+      display: block !important;
+    }
+  }
+
+  .menu {
+    display: none;
+    color: #64ffda;
+  }
 
   ol {
     display: flex;
@@ -77,11 +95,16 @@ export const NavItem = styled.div`
       color: #64ffda;
     }
   }
+`;
 
-  a {
-    text-decoration: none;
-    display: inline-block;
-    padding: 10px;
-    transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+export const Anchor = styled.a`
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px;
+  transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+
+  &:before {
+    content: ${(props: { index: number }) => props.index + ". "};
+    color: #64ffda;
   }
 `;

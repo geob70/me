@@ -23,7 +23,7 @@ export const Header = styled.h2`
   position: relative;
   overflow: hidden;
   width: 100%;
-  font-size: clamp(26px, 5vw, 32px);
+  font-size: clamp(20px, 5vw, 32px);
   white-space: nowrap;
   width: min-content;
   font-weight: 600;
@@ -39,7 +39,10 @@ export const Header = styled.h2`
     height: 1px;
     margin: 0 0 0 10px;
     background-color: #a8b2d1;
-    
+
+    @media (max-width: 480px) {
+      width: 0;
+    }
   }
 `;
 
@@ -66,6 +69,10 @@ export const Floater = styled.p`
   top: -1px;
   left: 35%;
   animation: ${toAndFro} 7s linear infinite;
+
+  @media (max-width: 480px) {
+    display: none;
+  }
 `;
 
 export const ProfileContainer = styled.div`
@@ -75,6 +82,11 @@ export const ProfileContainer = styled.div`
   grid-template-columns: 70% 30%;
   gap: 10px;
   padding-top: 50px;
+
+  @media (max-width: 480px) {
+    display: flex;
+    flex-direction: column;
+  }
 `;
 
 const upAndDown = keyframes`
@@ -139,9 +151,9 @@ export const ListItemGrid = styled.div`
 `;
 
 export const ImageContainer = styled.div`
-  border: 4px solid #64ffda;
+  /* border: 4px solid #64ffda; */
   cursor: pointer;
-  clip-path: polygon(
+  /* clip-path: polygon(
     20% 0%,
     80% 0%,
     100% 20%,
@@ -150,33 +162,17 @@ export const ImageContainer = styled.div`
     20% 100%,
     0% 80%,
     0% 20%
-  );
+  ); */
   position: relative;
-  /* top: 100px; */
+  top: -50px;
   transition: 0.5s all ease-in-out;
   /* width: 30px; */
 
   &:hover {
     transform: scale(0.95);
-    border: 8px solid #64ffda;
-  }
-
-  &:hover:div {
-    opacity: 0.2;
   }
 
   img {
     height: 100%;
-  }
-
-  div {
-    background: #63edd1;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    opacity: 0.4;
-    transition: 0.5s all ease-in-out;
   }
 `;

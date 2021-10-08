@@ -38,8 +38,8 @@ const Experience = () => {
       date: "Dec 2018 - April 2019",
       intern: true,
       tasks: [
-        "Cooperate diligently with other IT team members to plan, design, and develop smart solutions/",
-        " Refactored API to isolate and remove bugs, to improve API response time.",
+        "Cooperate diligently with other IT team members to plan, design, and develop smart solutions.",
+        "Refactored API to isolate and remove bugs, to improve API response time.",
       ],
     },
     {

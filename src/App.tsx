@@ -8,6 +8,7 @@ import Intro from "./sections/intro/Intro";
 import About from "./sections/about/About";
 import Experience from "./sections/experience/Experience";
 import Projects from "./sections/projects/projects";
+import ContactMe from "./sections/contact/ContactMe";
 import Footer from "./sections/footer/Footer";
 import "./App.css";
 
@@ -20,6 +21,7 @@ function App() {
         <About />
         <Experience />
         <Projects />
+        <ContactMe />
         <Footer />
       </Main>
       <Socials />
