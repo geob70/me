@@ -8,6 +8,7 @@ import {
   ImageContainer
 } from "./style";
 import ListItem from "../../components/list/ListItem";
+import geo from "./geo.png";
 
 const About = () => {
   return (
@@ -38,7 +39,7 @@ const About = () => {
             </ListItemGrid>
           </Content>
           <ImageContainer>
-            <img src="/logo1.jpg" alt="" />
+            <img src={geo} alt="" />
             <div></div>
           </ImageContainer>
         </ProfileContainer>

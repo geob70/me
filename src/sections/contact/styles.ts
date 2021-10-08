@@ -27,7 +27,7 @@ export const Container = styled.div`
 
   p {
     font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
-    color: silver;
+    color: #8893b0;
     margin: 40px 0px;
   }
 `;

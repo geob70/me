@@ -9,6 +9,10 @@ export const Container = styled.div`
   z-index: 10;
   color: #a8b2d1;
 
+  @media (max-width: 480px) {
+    display: none !important;
+  }
+
   ul {
     display: flex;
     flex-direction: column;
@@ -53,6 +57,10 @@ export const EmailContainer = styled.div`
   bottom: 0px;
   right: 40px;
   color: #a8b2d1;
+
+  @media (max-width: 480px) {
+    display: none !important;
+  }
 
   &:after {
     content: "";
