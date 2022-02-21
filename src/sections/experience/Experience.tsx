@@ -23,13 +23,32 @@ const Experience = () => {
   const experience: Jobs[] = [
     {
       position: "Engineer",
-      company: "Chronos",
+      company: "Balanced Servicers",
       date: "Jan 2020 - present",
       tasks: [
         "Cooperated diligently with other IT team members to plan, design, and develop smart solutions.",
         "Transformed existing software to correct errors, upgrade interfaces, and improve efficiency.",
         "Work with different technologies such as JavaScript, TypeScript, React, Node (Adonis), Vue and Redis.",
         "Worked closely with user experience designers and other developers ensure thoughtful and coherent user experiences across applications.",
+      ],
+    },
+    {
+      position: "Engineer",
+      company: "Autochek",
+      date: "Oct 2021 - ",
+      tasks: [
+        "Refactor and optimize web application to reduce number of API calls and UI bug issues, which increased the application speed by 30%.",
+        "Communication and collaborate with multi-disciplinary teams of engineers, designers, producers and stakeholders on a daily basis",
+      ],
+    },
+    {
+      position: "Engineer",
+      company: "Shara",
+      date: "July 2021 - Dec 2021",
+      tasks: [
+        "Reimplemented the payment processes to accommodation different payment mode and conditions.",
+        "Implement a service that uses queue data structure to handle duplicate transactions.",
+        "Implemented a faster, lighter and more user-friendly mobile application to give users a better experience.",
       ],
     },
     {
