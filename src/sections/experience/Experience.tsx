@@ -81,12 +81,18 @@ const Experience = () => {
           <TabContainer>
             <StyledHighlight activeTabId={activeTabId} />
             <Tab isActive={activeTabId === 0} onClick={() => setActiveTabId(0)}>
-              Chronos
+              Balanced Servicer
             </Tab>
             <Tab isActive={activeTabId === 1} onClick={() => setActiveTabId(1)}>
-              390Labs
+              Autochek
             </Tab>
             <Tab isActive={activeTabId === 2} onClick={() => setActiveTabId(2)}>
+              Shara
+            </Tab>
+            <Tab isActive={activeTabId === 3} onClick={() => setActiveTabId(3)}>
+              390Labs
+            </Tab>
+            <Tab isActive={activeTabId === 4} onClick={() => setActiveTabId(4)}>
               Chronos
             </Tab>
           </TabContainer>
